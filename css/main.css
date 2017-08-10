@@ -1,0 +1,1125 @@
+body{
+	background-color: fafafa;
+}
+
+.logo a{
+	z-index: 5;
+	color: white;
+	transition: all 3s ease;
+}
+
+.logo a:hover{
+	color: #0088ff;
+	text-decoration: none;
+}
+.adaptive-menu{
+		display: none;
+	}
+	.adaptive-menu-lines{
+		display: none;
+	}
+@font-face{	
+	font-family: Open-Sans;
+	src : url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
+@font-face{	
+	font-family: Play;
+	src : url(../fonts/Play/Play-Bold.ttf);
+}
+@font-face{	
+	font-family: Play-re;
+	src : url(../fonts/Play/Play-Regular.ttf);
+}
+.back-container{
+	height: 850px;
+	background-image: url(../img/background3-min.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	border-bottom: 8px solid #054175;
+-moz-animation-direction:alternate; /* Firefox */
+-webkit-animation-direction:alternate; /* Safari и Chrome */
+
+}
+
+.menu{
+	    
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+	-webkit-user-select: none;
+	height: 65px;
+	background-color: rgb(11,35,105);
+	border-bottom: 1px solid rgb(11,35,105);
+-webkit-box-shadow: 0px 3px 42px 1px rgba(0,0,0,0.22);
+-moz-box-shadow: 0px 3px 42px 1px rgba(0,0,0,0.22);
+box-shadow: 0px 3px 42px 1px rgba(0,0,0,0.22);
+}
+.logo{
+	font-family: Play;
+	font-size: 40px;
+	line-height: 65px;
+	color: white;
+	padding-left: 40px;
+}
+
+
+
+.menu-bar{
+	font-family: Open-Sans;
+}
+
+.menu-bar a,.menu-bar2 a{
+	white-space: nowrap;
+	font-size: 16px;
+	line-height: 65px;
+	padding: 0 15px 0;
+
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	-webkit-transition: all 0.2s ease;
+}
+
+
+.menu-bar a:hover,.menu-bar2 a:hover{
+	border-bottom: 4px solid white;
+
+}
+
+.menu-bar a:hover:nth-child(1){
+	border-bottom: 6px solid red;
+
+}
+
+
+
+.menu-bar a:hover{
+text-decoration: none;
+}
+
+.slogan{
+	-webkit-user-select: none;
+	font-family: Play-re;
+	color: white;
+	height: 850px;
+	background-color: rgba(0,0,0, 0.3);
+
+
+}
+
+.liders{
+	color: white;
+	margin-top: 320px;
+	font-size: 50px;
+	-webkit-transition: all 0.3s ease;
+	
+}
+.liders-plus{
+	font-size: 30px;
+	font-family: Play-re;
+	-webkit-transition: all 0.3s ease;
+
+}
+
+.call{
+	margin-top: 20px;
+	padding: 2px 20px 2px;
+}
+
+.btn.call{
+	font-size: 20px;
+	border: 2px solid #00db45;
+}
+
+.btn.call:hover{
+	font-size: 26px;
+	background-color: white;
+	color: black;
+	border-color: #1e00ff;
+}
+.fa.fa-phone{
+	color: white;
+	-webkit-transition: all 0.2s ease;
+	font-size: 22px;
+	margin-right: 10px;
+}
+.phone-first a{
+
+	font-family: Play;
+	display: inline-block;
+	line-height: 65px;
+	color: white;
+	font-size: 20px;
+	-webkit-transition: all 0.2s ease;
+}
+
+.phone-first a:hover{
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.phone-first a:active{
+	text-decoration: none;
+}
+
+.phone-first a:focus{
+	text-decoration: none;
+}
+
+.container{
+	padding-top: 20px;
+	font-family: Open-Sans;
+}
+.catalog-container{
+	margin-top: 20px;
+	font-size: 28px;
+}
+
+.catalog-tech{
+	margin-top: 120px;
+	height: 700px;
+}
+.tech{
+	margin-top: 50px;
+}
+
+.catalog-tech{
+font-size: 28px;
+}
+
+.doosan,.hyundai,.tadano,.kobelco,.hitachi,.komatsu{
+	margin-top: 30px;
+		background-position: center;
+	background-repeat: no-repeat;
+	background-size: 360px;
+	height: 240px;
+	transition: all 0.4s ease;
+}
+
+.doosan:hover,.hyundai:hover,.tadano:hover,.kobelco:hover,.hitachi:hover,.komatsu:hover{
+	background-position: center;
+	background-size: 320px;
+	cursor: pointer;
+}
+
+
+
+.doosan{
+	background-image: url(../img/Doosan_logo-min.png);
+}
+
+.hyundai{
+	background-image: url(../img/hyundai_logo-min.png);
+}
+
+.tadano{
+	background-image: url(../img/tadano_logo-min.png);
+}
+
+.kobelco{
+	background-image: url(../img/kobelco_logo-min.jpg);
+}
+
+.hitachi{
+	background-image: url(../img/hitachi_logo-min.jpg);
+}
+
+.komatsu{
+	background-image: url(../img/komatsu_logo-min.jpg);
+}
+.containers{
+	margin-top: 40px;
+	height: 500px;
+	background-color: white;
+	width: 380px;
+	border-radius: 15px;
+	font-size: 16px;
+	color: black;
+	padding: 0;
+-webkit-box-shadow: 15px 2px 30px -9px rgba(0,0,0,0.22);
+-moz-box-shadow: 15px 2px 30px -9px rgba(0,0,0,0.22);
+box-shadow: 15px 2px 30px -9px rgba(0,0,0,0.22);
+
+border-top: 4px solid #054175;
+border-right: 4px solid #054175;
+}
+
+.t4{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.t11{
+	margin-right: 10px;
+}
+
+.container-photo1{
+	font-size: 30px;
+	border-radius: 10px 10px 0 0;
+	height: 180px;
+	background-image: url(../img/T4/1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-transition: all 0.9s ease;
+	border-bottom: 5px solid #054175;
+}
+
+.container-photo2{
+	font-size: 30px;
+	border-radius: 10px 10px 0 0;
+	height: 180px;
+	background-image: url(../img/Т11/1.jpg);
+		background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-transition: all 0.9s ease;
+	border-bottom: 5px solid #054175;
+
+}
+
+.container-photo3{
+	font-size: 30px;
+	border-radius: 10px 10px 0 0;
+	height: 180px;
+	background-image: url(../img/Т50/1.jpg);
+		background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-transition: all 0.9s ease;
+	border-bottom: 5px solid #054175;
+}
+
+h2{
+	font-family: Play;
+	display: block;
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	background-color: rgba(11,35,105, 0.9);
+}
+
+.container-photo1:hover, .container-photo2:hover, .container-photo3:hover{
+	height: 230px;
+	background-position: size;
+
+
+}
+
+.container-button{
+	position: absolute;
+	top: 340px;
+
+}
+
+.btn-primary{
+	font-family: Play;
+	font-size: 20px;
+	background-color: white;
+	color: black;
+	border-radius: 30px;
+	border-bottom: 2px solid rgba(11,35,105, 0.99);
+	-webkit-transition: all 0.3s ease;
+
+}
+
+.btn-primary:hover{
+	background-color: #2600ff;
+}
+
+.about-us{
+	-webkit-box-shadow: 0px -11px 14px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -11px 14px -12px rgba(0,0,0,0.75);
+box-shadow: 0px -11px 14px -12px rgba(0,0,0,0.75);
+	padding: 0 150px 0;
+	margin-top: 80px;
+	min-height: 600px;
+	font-size: 25px;
+	font-family: Play;
+	background-color: rgb(11,35,105);
+}
+
+.about_us h4{
+	font-size: 32px;
+}
+
+.about_us strong{
+	color: orange;
+}
+
+.about-us h3{
+	font-size: 40px;
+}
+
+.about_us{
+	
+	color: white;
+}
+
+.why-me h3{
+	margin-bottom: 80px;
+	font-size: 40px;
+}
+
+.why-me{
+	-webkit-box-shadow: 0px -11px 37px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -11px 37px -6px rgba(0,0,0,0.75);
+box-shadow: 0px -11px 37px -6px rgba(0,0,0,0.75);
+	padding: 0 100px 0;
+	min-height: 300px;
+	font-size: 20px;
+	font-family: Play;
+	background-color: rgb(11,35,105);
+
+}
+
+.why-me i{
+	font-size: 40px;
+	color: orange;
+	-webkit-transition: all 0.2s ease;
+}
+
+.why-me i:hover{
+	font-size: 50px;
+}
+
+.why-me p{
+	font-size: 26px;
+	color: orange;
+}
+
+/*.fa{
+	color: yellow;
+	font-size: 35px;
+	margin-bottom: 10px;
+	-webkit-transition: all 0.9s ease;
+}
+
+.fa:hover{
+	font-size: 48px;
+}
+
+*/
+.skidki{
+	padding-top: 30px;
+	min-height: 340px;
+	background-image: url(../img/skidkiback.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: Open-Sans;
+}
+
+
+.skidki-name{
+	color: orange;
+	font-family: Play;
+	font-size: 36px;
+}
+
+.fa-diamond.fa{
+	padding: 0 15px 0;
+	font-size: 24px;
+}
+
+.skidki-text{
+	font-size: 28px;
+	color: white;
+	font-family: Play;
+}
+
+.plus{
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+/* 	ШАПКА */
+@media (max-width: 1414px) {
+.menu-bar a{
+	font-size: 15px;
+		padding: 0 10px 0;
+}
+}
+
+@media (max-width: 1350px) {
+.menu-bar a{
+	font-size: 15px;
+		padding: 0 10px 0;
+
+}
+.logo{
+	font-size: 38px;
+	padding-left: 20px;
+
+
+}
+}
+
+@media (max-width: 1250px) {
+.menu-bar a{
+	font-size: 14px;
+		padding: 0 7px 0;
+}
+}
+
+@media (max-width: 1126px) {
+.menu-bar a{
+	font-size: 13px;
+		padding: 0 6px 0;
+}
+.phone-first a{
+	font-size: 18px;
+}
+.phone-first a:hover{
+	font-size: 22px;
+}
+
+.logo{
+	font-size: 38px;
+	padding-left: 10px;
+
+	}
+}
+
+@media (max-width: 1220px){
+	.phone-first{
+	font-size: 18px;
+	padding-right: 0;
+}
+
+.menu-bar a:hover{
+	border-bottom: 2px solid white;
+
+}
+
+.menu-bar a:hover:nth-child(1){
+	border-bottom: 3px solid red;
+
+}
+	.phone-bar{
+	padding-right: 0;
+}
+.phone-first a:hover{
+	font-size: 19px;
+}
+}
+
+@media (max-width: 1044px){
+.menu-bar a{
+	font-size: 11px;
+		padding: 0 4px 0;
+}
+
+.logo{
+	font-size: 32px;
+	padding-left: 5px;
+
+	}
+}
+
+@media (max-width: 1050px){
+	.phone-first a{
+	font-size: 14px;
+}
+.phone-first a:hover{
+	font-size: 14px;
+	color: yellow;
+}
+}
+
+@media (max-width: 882px){
+	.menu-bar,.phone-bar{
+		display: none;
+	}
+
+
+.menu-bar2 a:nth-child(1){
+	font-size: 18px;
+}
+
+.menu-bar2 a:nth-child(1):hover{
+	border-bottom: 6px solid red;
+}
+	.adaptive-menu{
+		display: inline-block;
+		height: 65px;
+		
+	}
+
+	.adaptive-menu-lines{
+		background-color: rgba(11,35,105, 0.92);
+		display: none;
+		min-height: 100px;
+		line-height: 100px;
+		
+	}
+
+	.menu-bar{
+		display: none;
+	}
+
+
+	.menu-bar2{
+		margin-bottom: 20px;
+		min-height: 100vh;
+	}
+
+	
+
+	
+
+		.menu-bar2 p{
+		max-height: 80px;
+	}
+
+	.burger{
+		display: inline-block;
+		color: white;
+		font-size: 40px;
+		margin-top: 5px;
+	}
+
+		.burger:hover,.burger:focus{
+		color: #add9ff;
+		text-decoration: none;
+	}
+
+}
+
+
+@media (min-width: 882px){
+
+	.adaptive-menu-lines{
+		display: none;
+
+		
+	}
+
+}
+
+/* ЛИДЕРЫ   */
+
+@media (max-width: 540px){
+
+	.liders{
+font-size: 34px;	
+	}
+		.liders-plus{
+font-size: 20px;	
+	}
+
+}
+
+@media (max-width: 382px){
+.menu-bar2 a:nth-child(1){
+	font-size: 21px;
+}
+	.liders{
+font-size: 28px;	
+	}
+		.liders-plus{
+font-size: 18px;	
+	}
+
+}
+
+@media (max-width: 325px){
+
+	.liders{
+font-size: 25px;	
+	}
+		.liders-plus{
+font-size: 16px;	
+	}
+
+}
+
+@media (max-width: 290px){
+.slogan{
+	background-color: rgba(0,0,0, 0.3);
+	height: 600px;
+	}
+.liders{
+margin-top: 200px;
+font-size: 25px;
+word-spacing: 210px;
+
+	}
+		.liders-plus{
+font-size: 16px;	
+word-spacing: 210px;
+	}
+
+	.back-container{
+		height: 600px;
+	}
+
+}
+
+
+
+/* КАТАЛОГ   */
+
+@media (max-width: 1199px){
+
+	.containers{
+		margin-left: 5%;
+		margin-right: 5%;		
+	}
+
+}
+@media (max-width: 991px){
+
+	.containers{
+		margin-left: 23%;
+		margin-right: 23%;		
+	}
+
+}
+
+
+@media (max-width: 716px){
+
+	.containers{
+	background-color: white;
+	width: 100%;
+	border-radius: 15px;
+	font-size: 16px;
+	color: black;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;	
+-webkit-box-shadow: 0px 7px 39px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 39px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 39px -12px rgba(0,0,0,0.75);
+border-top: 2px solid #054175;
+border-bottom: 2px solid #054175;
+border-right: none;
+	}
+
+	.container-button{
+	margin-top: 80px;
+}
+
+}
+
+@media (max-width: 891px){
+
+.about-us{
+	padding: 0 40px 0;
+}
+
+.why-me{
+
+	padding: 0 50px 0;
+	font-size: 20px;
+
+	white-space: nowrap;
+}
+
+}
+
+
+@media (max-width: 590px){
+
+	.skidki-text{
+		font-size: 20px;
+	}
+.why-me{
+
+	padding: 0 10px 0;
+	font-size: 18px;
+
+	white-space: nowrap;
+}
+.about-us{
+	padding: 0 5px 0;
+}
+
+}
+
+@media (max-width: 460px){
+
+		.skidki-text{
+		font-size: 18px;
+	}
+.why-me{
+
+	padding: 0 5px 0;
+	font-size: 16px;
+
+	white-space: nowrap;
+}
+
+.why-me p{
+
+	font-size: 20px;
+
+	white-space: nowrap;
+}
+.about-us{
+	padding: 0 3px 0;
+}
+
+}
+
+@media (max-width: 355px){
+.why-me{
+
+	padding: 0 2px 0;
+	font-size: 12px;
+
+	white-space: nowrap;
+}
+
+.why-me p{
+
+	font-size: 15px;
+
+	white-space: nowrap;
+}
+.about-us{
+	padding: 0 3px 0;
+}
+
+}
+
+
+/*СПЕЦТЕХНИКА*/
+
+@media (max-width: 1199px){
+
+
+.doosan,.hyundai,.tadano,.kobelco,.hitachi,.komatsu{
+	background-size: 300px;
+}
+}
+
+@media (max-width: 991px){
+
+
+.doosan,.hyundai,.tadano,.kobelco,.hitachi,.komatsu{
+
+	background-size: 200px;
+
+}
+
+
+}
+
+@media (max-width: 500px){
+
+
+.doosan,.hyundai,.tadano,.kobelco,.hitachi,.komatsu{
+
+	background-size: 230px;
+
+}
+
+.spets{
+	width: 100%;
+}
+
+
+}
+
+
+@media (max-width: 1460px){
+.why-me{
+	padding: 0 50px 0;
+	font-size: 20px;
+}
+}
+
+@media (max-width: 992px){
+.why-me{
+	padding: 0 10px 0;
+	font-size: 25px;
+}
+}
+
+@media (max-width: 492px){
+
+	.about_us h3{
+		font-size: 32px;
+	}
+.why-me p{
+	font-size: 16px;
+}
+
+.plus{
+	font-size: 14px;
+}
+
+.about_us{
+	padding: 0;
+}
+.why-me{
+	padding: 0;
+}
+
+.about_us{
+	font-size: 16px;
+}
+
+.about_us h4{
+	font-size: 20px;
+}
+}
+
+
+
+
+
+
+@media (min-width: 716px){
+	.container-button{
+	margin-top: 60px;
+}
+
+}
+
+
+/* ВЫСОТА */
+
+@media (min-height: 610px){
+	.menu-bar2 p{
+		height: 80px;
+	}
+}
+
+@media (max-height: 609px){
+	.menu-bar2 p{
+		height: 60px;
+	}
+}
+
+
+@media (max-height: 515px){
+	.menu-bar2 p{
+		height: 40px;
+	}
+}
+
+@media (max-height: 432px){
+	.menu-bar2 p{
+		height: 20px;
+	}
+}
+
+
+@media (max-height: 354px){
+	.menu-bar2 a:nth-child(1){
+		font-size: 14px;
+	}
+}
+
+
+@media (max-height: 530px){
+	.liders{
+		margin-top: 200px;
+	}
+
+	.back-container,.slogan{
+		height: 500px;
+	}
+}
+
+@media (max-height: 418px){
+	.liders{
+		margin-top: 130px;
+	}
+
+		.back-container,.slogan{
+		height: 400px;
+	}
+}
+
+
+@media (max-height: 340px){
+	.liders{
+		margin-top: 80px;
+	}
+
+		.back-container,.slogan{
+		height: 300px;
+	}
+}
+
+
+@media (max-width: 320px){
+	.btn.call:hover{
+		font-size: 22px;
+	}
+}
+
+.form{
+	margin-top: 160px;
+
+}
+}
+
+
+form{
+
+  margin:0 auto;
+  max-width:95%;
+  box-sizing:border-box;
+  padding:40px;
+  border-radius:5px; 
+  background:RGBA(255,255,255,1);
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);  
+}
+/* Стили полей ввода */
+.textbox{
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px; 
+  padding:10px;
+  margin-bottom:30px;  
+}
+.message:focus,
+.textbox:focus{
+  outline:none;
+   border:rgba(24,149,215,1) 2px solid;
+   color:rgba(24,149,215,1);
+}
+/* Стили текстового поля */
+.message{
+    background: rgba(255, 255, 255, 0.4); 
+    width:100%;
+    height: 120px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    -moz-border-radius: 3px;
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+    display:block;
+    padding:10px;
+    margin-bottom:30px;
+    overflow:hidden;
+}
+/* Базовые стили кнопки */
+.button{
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:  #005cad 2px solid;
+  box-sizing:border-box;
+  padding:10px;
+  background:white;
+  color:#005cad;
+  font-family: 'Open Sans', sans-serif;  
+  font-weight:400;
+  font-size: 16pt;
+  transition:all .4s;
+  cursor:pointer;
+}
+/* Изменение фона кнопки при наведении */
+.button:hover{
+  background:#005cad;
+  color: white;
+}
+
+@media (max-width: 882px){
+	.form{
+	margin-top: 100px;
+
+}
+}
+
+@media (max-height: 707px){
+	form{
+	padding:10px;
+
+}
+}
+
+@media (max-height: 600px){
+	.form{
+	margin-top: 40px;
+
+}
+}
+@media (max-height: 594px){
+	.form{
+	margin-top: 40px;
+
+}
+
+.textbox{
+	height: 30px;
+}
+}
+
+@media (max-height: 470px){
+.message{
+	height: 60px;
+}
+
+}
+
+@media (max-height: 410px){
+.message{
+	height: 40px;
+}
+
+}
+
+a:hover{
+color: #a992ff;
+}
+
+
+.contact{
+				margin-top: 100px;
+			}
+
+.contact-name{
+	font-size: 34px;
+	margin-bottom: 30px;
+}
+
+.contact-data{
+	font-size: 20px;
+}
+.contact-also{
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+.map{
+	 width: 100%;
+}
+
+@media (max-width: 991px){
+	.contact-name{
+		margin-bottom: 0px;
+	}
+
+	.contact{
+				margin-top: 75px;
+			}
+	
+}
+
+@media (max-width: 354px){
+	.contact-data{
+		font-size: 14px;
+	}
+	
+}
