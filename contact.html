@@ -13,7 +13,7 @@
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	
 </head>
-<body>
+<body class="contact-page">
 	<div class="back-container container-fluid" style="height: 0">
 		<div class="row menu">
 			<div class="logo col-xs-3 col-sm-3 col-md-3 col-lg-3 text-left">
@@ -63,7 +63,7 @@ color: #a992ff;
 			<div class="row contacts">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center contact-name">КОНТАКТЫ</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center contact-also">Свяжитесь с нами, чтобы узнать актуальную информацию о продукции, ценах.</div>
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-right contact-data"><table class="table table-inverse table-hover table-responsive">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-right contact-data"><table class="table table-responsive">
 
   <tbody>
     <tr>
@@ -109,13 +109,18 @@ color: #a992ff;
 var click = 0;
 function burger(){
 	if (click==0) {
-	$('#adaptive-menu-lines').show('drop');
+	$('#adaptive-menu-lines').fadeIn('fast');
 	click = 1;
 }else{
-	$('#adaptive-menu-lines').hide('drop');
+	$('#adaptive-menu-lines').fadeOut('fast');
 	click = 0;
 }
 }
 </script>
+<!-- HelloPreload http://hello-site.ru/preloader/ -->
+<style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;background: rgb(11,35,105) url(http://hello-site.ru//main/images/preloads/oval.svg) center center no-repeat;background-size:105px;}</style>
+<div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
+<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
+<!-- HelloPreload http://hello-site.ru/preloader/ -->
 </body>
 </html>

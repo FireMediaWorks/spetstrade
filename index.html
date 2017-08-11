@@ -35,7 +35,7 @@
 			</div>
 				<div class="adaptive-menu-lines col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" id="adaptive-menu-lines">
 			<div class="menu-bar2 col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-			<p><a href="tel:+74232723670"><i class="fa fa-phone" aria-hidden="true"></i>+7 (423) 272-36-70</a></p>
+			<p class="phone-adaptive-line"><a href="tel:+74232723670"><i class="fa fa-phone" aria-hidden="true"></i>+7 (423) 272-36-70</a></p>
 				<p><a href="#">ТАНК-КОНТЕЙНЕРЫ</a></p>
 		
 				<p><a href="#">СПЕЦТЕХНИКА</a></p>
@@ -144,19 +144,25 @@
 			</div>
 		</div>
 	</div>
+	
 <script src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
 
 var click = 0;
 function burger(){
 	if (click==0) {
-	$('#adaptive-menu-lines').show('drop');
+	$('#adaptive-menu-lines').fadeIn('fast');
 	click = 1;
 }else{
-	$('#adaptive-menu-lines').hide('drop');
+	$('#adaptive-menu-lines').fadeOut('fast');
 	click = 0;
 }
 }
 </script>
+<!-- HelloPreload http://hello-site.ru/preloader/ -->
+<style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;background: rgb(11,35,105) url(http://hello-site.ru//main/images/preloads/oval.svg) center center no-repeat;background-size:105px;}</style>
+<div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
+<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
+<!-- HelloPreload http://hello-site.ru/preloader/ -->
 </body>
 </html>
